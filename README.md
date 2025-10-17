@@ -30,7 +30,7 @@ The dataset used is **`bestsellers.csv`**, which contains the following columns:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/amazon-books-analysis.git
+git clone https://github.com/kavyashreev-official/amazon-books-analysis.git
 cd amazon-books-analysis
 ````
 
@@ -113,7 +113,7 @@ The analysis also exports summary CSV files:
 
 ## 👩‍💻 Author
 
-**Kavya Shree**
+**Kavyashree V**
 📧 Feel free to connect or give feedback via GitHub!
 ⭐ If you like this project, consider starring the repository!
 
@@ -124,3 +124,4 @@ The analysis also exports summary CSV files:
 This project is open source and available under the [MIT License](LICENSE).
 
 ```
+
