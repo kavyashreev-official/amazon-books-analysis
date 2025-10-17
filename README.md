@@ -1,52 +1,126 @@
-# 📚 Amazon Books Analysis
+# 📚 Amazon Books Analysis with Visualizations
 
-A data analysis project built with **Python 3.13**, using **Pandas**, **Matplotlib**, and **Seaborn** to explore trends and insights from Amazon’s Best Selling Books dataset.
+## 🧠 Overview
+This project analyzes Amazon's bestselling books dataset to uncover insights such as:
+- Which authors appear most frequently on the bestseller list  
+- Average ratings by genre  
+- Price distribution across books  
+- Rating trends over the years  
 
----
-
-## 🧠 Project Overview
-
-This project focuses on analyzing Amazon's top-selling books to uncover patterns such as:
-- Most popular genres 📖  
-- Author trends ✍️  
-- Yearly publishing statistics 📅  
-- Ratings and price distributions 💰  
-- Correlations between user ratings and sales performance  
-
-The results are visualized through interactive and static plots.
+The analysis uses **Python**, **Pandas**, **Matplotlib**, and **Seaborn** for data processing and visualization.
 
 ---
 
-## 🧩 Technologies Used
+## 📂 Dataset
+The dataset used is **`bestsellers.csv`**, which contains the following columns:
 
-| Tool | Purpose |
-|------|----------|
-| Python 3.13 | Core programming language |
-| Pandas | Data cleaning and manipulation |
-| Matplotlib | Data visualization |
-| Seaborn | Advanced statistical plotting |
-| Jupyter Notebook / VS Code | Development environment |
-
----
-
-## 🗂️ Dataset
-
-The dataset used is **Amazon Best Selling Books** (CSV format).  
-Each record typically includes:
-- `Name`
-- `Author`
-- `User Rating`
-- `Reviews`
-- `Price`
-- `Year`
-- `Genre`
-
-> 📦 You can replace this dataset with your own or download from Kaggle if needed.
+| Column Name     | Description |
+|-----------------|--------------|
+| Name            | Title of the book |
+| Author          | Author of the book |
+| User Rating     | Average user rating (0–5) |
+| Reviews         | Number of user reviews |
+| Price           | Price of the book (in USD) |
+| Year            | Publication year |
+| Genre           | Type of book (Fiction / Non-Fiction) |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
-1. Clone this repository:
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/amazon-books-analysis.git
+cd amazon-books-analysis
+````
+
+### 2️⃣ Install dependencies
+
+Make sure you have Python 3 installed, then install required libraries:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+### 3️⃣ Add the dataset
+
+Place your **`bestsellers.csv`** file in the project folder.
+
+---
+
+## 🚀 How to Run
+
+Run the Python script:
+
+```bash
+python amazon_books_analysis.py
+```
+
+Or, if using VS Code:
+
+1. Open the folder in VS Code
+2. Open the integrated terminal
+3. Run:
+
    ```bash
-   git clone https://github.com/your-username/amazon-books-analysis.git
+   python amazon_books_analysis.py
+   ```
+
+---
+
+## 📊 Visualizations
+
+The script generates several insightful charts:
+
+1. **Top 10 Bestselling Authors**
+   Bar chart showing authors with the highest number of bestselling books.
+
+2. **Average Rating by Genre**
+   Comparison of mean user ratings for Fiction vs Non-Fiction books.
+
+3. **Price Distribution**
+   Histogram showing how book prices are distributed.
+
+4. **Ratings Over Years**
+   Boxplot showing how ratings vary by publication year.
+
+---
+
+## 🧾 Output Files
+
+The analysis also exports summary CSV files:
+
+* `top_authors.csv` → Top 10 bestselling authors
+* `avg_rating_by_genre.csv` → Average rating per genre
+
+---
+
+## 🧰 Tech Stack
+
+* **Language:** Python
+* **Libraries:** Pandas, Matplotlib, Seaborn
+* **Environment:** VS Code / Jupyter Notebook
+
+---
+
+## 📈 Sample Insights
+
+* Non-Fiction books tend to have slightly higher ratings.
+* A few authors dominate the bestseller charts.
+* Most books are moderately priced between $10–$20.
+
+---
+
+## 👩‍💻 Author
+
+**Kavya Shree**
+📧 Feel free to connect or give feedback via GitHub!
+⭐ If you like this project, consider starring the repository!
+
+---
+
+## 🪪 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+```
